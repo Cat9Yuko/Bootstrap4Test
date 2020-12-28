@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>网格系统</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+
+<body class="container">
+
+    <h3 class="mb-4">等宽列</h3>
+    <div class="row">
+        <div class="col border py-3 bg-light">二分之一</div>
+        <div class="col border py-3 bg-light">二分之一</div>
+    </div>
+    <div class="row">
+        <div class="col border py-3 bg-light">三分之一</div>
+        <div class="col border py-3 bg-light">三分之一</div>
+        <div class="col border py-3 bg-light">三分之一</div>
+    </div>
+    <div class="row">
+        <div class="col border py-3 bg-light">四分之一</div>
+        <div class="col border py-3 bg-light">四分之一</div>
+        <div class="col border py-3 bg-light">四分之一</div>
+        <div class="col border py-3 bg-light">四分之一</div>
+    </div>
+    <div class="row">
+        <div class="col border py-3 bg-light">十分之一</div>
+        <div class="col border py-3 bg-light">十分之一</div>
+        <div class="col border py-3 bg-light">十分之一</div>
+        <div class="col border py-3 bg-light">十分之一</div>
+        <div class="col border py-3 bg-light">十分之一</div>
+        <div class="col border py-3 bg-light">十分之一</div>
+        <div class="col border py-3 bg-light">十分之一</div>
+        <div class="col border py-3 bg-light">十分之一</div>
+        <div class="col border py-3 bg-light">十分之一</div>
+        <div class="col border py-3 bg-light">十分之一</div>
+    </div>
+
+    <h3 class="mb-4">设置一个列宽</h3>
+    <div class="row">
+        <div class="col border py-3 bg-light">左</div>
+        <div class="col-7 border py-3 bg-light">中</div>
+        <div class="col border py-3 bg-light">右</div>
+    </div>
+    <div class="row">
+        <div class="col-3 border py-3 bg-light">左</div>
+        <div class="col border py-3 bg-light">中</div>
+        <div class="col border py-3 bg-light">右</div>
+    </div>
+
+    <h3 class="mb-4">可变宽度的内容</h3>
+    <div class="row justify-content-md-center">
+        <div class="col col-lg-2 border py-3 bg-light">左</div>
+        <div class="col-md-auto border py-3 bg-light">中(在屏幕尺寸min:768px时,可根据内容宽度自动调整列表宽度)</div>
+        <div class="col col-lg-2 border py-3 bg-light">右</div>
+    </div>
+    <div class="row">
+        <div class="col border py-3 bg-light">左</div>
+        <div class="col-md-auto border py-3 bg-light">左</div>
+        <div class="col col-lg-2 border py-3 bg-light">左</div>
+    </div>
+
+    <h3 class="mb-4">等宽多列</h3>
+    <div class="row">
+        <div class="col border py-3 bg-light">四分之一</div>
+        <div class="col border py-3 bg-light">四分之一</div>
+        <div class="w-100"></div>
+        <div class="col border py-3 bg-light">四分之一</div>
+        <div class="col border py-3 bg-light">四分之一</div>
+    </div>
+
+    <!-- 响应类 -->
+    <h3 class="mb-4">覆盖所有设备</h3>
+    <div class="row">
+        <div class="col border py-3 bg-light">col</div>
+        <div class="col border py-3 bg-light">col</div>
+        <div class="col border py-3 bg-light">col</div>
+        <div class="col border py-3 bg-light">col</div>
+    </div>
+    <div class="row">
+        <div class="col-8 border py-3 bg-light">col-8</div>
+        <div class="col-4 border py-3 bg-light">col-4</div>
+    </div>
+
+    <h3 class="mb-4">水平排列</h3>
+    <!-- 在sm(min: 576px)设备上开始水平排列 -->
+    <div class="row">
+        <div class="col-sm-8 border py-3 bg-light">col-sm-8</div>
+        <div class="col-sm-4 border py-3 bg-light">col-sm-4</div>
+    </div>
+    <!-- 在md(min: 768px)设备上开始水平排列 -->
+    <div class="row">
+        <div class="col-md-8 border py-3 bg-light">col-md-8</div>
+        <div class="col-md-4 border py-3 bg-light">col-md-4</div>
+    </div>
+
+    <h3 class="mb-4">混合搭配</h3>
+    <!-- 在小于md型的设备是哪个显示为一个全宽列和一个半宽列, 在大于md型设备上显示一列, 分别占8份和4份 -->
+    <div class="row">
+        <div class="col-12 col-md-8 border py-3 bg-light">.col-12 .col-md-8</div>
+        <div class="col-6 col-md-4 border py-3 bg-light">.col-6 .col-md-4</div>
+    </div>
+    <!-- 在任何类型的设备是哪个, 列的宽度都是占50% -->
+    <div class="row">
+        <div class="col-6 border py-3 bg-light">.col-6</div>
+        <div class="col-6 border py-3 bg-light">.col-6</div>
+    </div>
+
+    <h3 class="mb-4">删除边距</h3>
+    <div class="row no-gutters">
+        <div class="col-12 col-sm-6 col-md-8 py-3 border bg-light">
+            .col-12 .col-sm-6 .col-md-8
+        </div>
+        <div class="col-6 col-md-4 py-3 bg-light">.col-6 .col-md-4</div>
+    </div>
+
+    <h3 class="mb-4">列包装</h3>
+    <div class="row">
+        <div class="col-9 py-3 border bg-light">.col-9</div>
+        <div class="col-4 py-3 border bg-light">.col-4<br>因为9 + 4 = 13 &gt; 12,4列宽的div被包装到一个新行上,作为一个连续的单元.</div>
+        <div class="col-6 py-3 border bg-light">后续的列沿着新行继续排列.</div>
+    </div>
+
+    <h3 class="mb-4">排列顺序</h3>
+    <div class="row">
+        <div class="col order-12 py-3 border bg-light">
+            order-12
+        </div>
+        <div class="col order-1 py-3 border bg-light">
+            order-1
+        </div>
+        <div class="col order-6 py-3 border bg-light">
+            order-6
+        </div>
+        <div class="col py-3 border bg-light">
+            col
+        </div>
+    </div>
+    <h3 class="mb-4">排列顺序</h3>
+    <div class="row">
+        <div class="col order-last py-3 border bg-light">order-last</div>
+        <div class="col py-3 border bg-light">col</div>
+        <div class="col order-first py-3 border bg-light">order-first</div>
+    </div>
+
+    <h3 class="mb-4">偏移类示例</h3>
+    <div class="row">
+        <div class="col-md-6 offset-md-3 py-3 border bg-light">.col-md-6 .offset-md-3</div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 offset-md-1 py-3 border bg-light">.col-md-4 .offset-md-1</div>
+        <div class="col-md-4 offset-md-2 py-3 border bg-light">.col-md-4 .offset-md-2</div>
+    </div>
+    <div class="row">
+        <div class="col-md-4 py-3 border bg-light">col-md-4</div>
+        <div class="col-md-4 offset-md-4 py-3 bg-light border">col-md-4 offset-md-4</div>
+    </div>
+    
+    <h3 class="mb-4">使用margin类实现列偏移</h3>
+    <div class="row">
+        <div class="col-md-4 py-3 border bg-light">.col-md-4</div>
+        <div class="col-md-4 ml-auto py-3 border bg-light">.col-md-4 .ml-auto</div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 ml-md-auto py-3 border bg-light">col-md-3 ml-md-auto</div>
+        <div class="col-md-3 ml-md-auto py-3 border bg-light">col-md-3 ml-md-auto</div>
+    </div>
+    <div class="row">
+        <div class="col-auto mr-auto py-3 border bg-light">col-auto mr-auto</div>
+        <div class="col-auto py-3 border bg-light">col-auto</div>
+    </div>
+
+    <h3 class="mb-4">嵌套</h3>
+    <div class="row">
+        <div class="col-12 col-lg-6">
+            <!-- 嵌套行 -->
+            <div class="row border no-gutters">
+                <div class="col-12 col-sm-3"><img src="s" alt=""></div>
+                <div class="col-12 col-sm-9 pl-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, neque rerum unde atque saepe fugiat doloribus voluptatibus esse aliquam asperiores nam quod a provident eaque. Provident nostrum magni ipsum sit?
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6">
+            <!-- 嵌套行 -->
+            <div class="row border no-gutters">
+                <div class="col-12 col-sm-3"><img src="s" alt=""></div>
+                <div class="col-12 col-sm-9 pl-3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, neque rerum unde atque saepe fugiat doloribus voluptatibus esse aliquam asperiores nam quod a provident eaque. Provident nostrum magni ipsum sit?
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
