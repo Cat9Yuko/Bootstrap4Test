@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>布局容器</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+  <body class="container">
+    <h3 class="mb-2">宽度</h3>
+    <div class="bg-secondary text-white mb-4">
+        <div class="w-25 p-3 bg-success">w-25</div>
+        <div class="w-50 p-3 bg-success">w-50</div>
+        <div class="w-75 p-3 bg-success">w-75</div>
+        <div class="w-100 p-3 bg-success">w-100</div>
+        <div class="w-auto p-3 bg-success border-top">w-auto</div>
+    </div>
+    <h3 class="mb-2">高度</h3>
+    <div class="bg-secondary text-white" style="height: 100px;">
+        <div class="h-25 d-inline-block bg-success text-center" style="width: 120px;">h-25</div>
+        <div class="h-50 d-inline-block bg-success text-center" style="width: 120px;">h-25</div>
+        <div class="h-75 d-inline-block bg-success text-center" style="width: 120px;">h-25</div>
+        <div class="h-100 d-inline-block bg-success text-center" style="width: 120px;">h-25</div>
+        <div class="h-auto d-inline-block bg-success text-center" style="width: 120px;">h-25</div>
+    </div>
+    
+    <h3 class="mb-4">最大宽度和最大高度</h3>
+    <div class="border border-primary" style="width: 400px;height: 300px;">
+        <img src="https://imgsa.baidu.com/forum/w%3D580/sign=2f2b39fa4290f60304b09c4f0910b370/74780c338744ebf8bfe5d1f4d1f9d72a6159a779.jpg" alt="" class="mw-100 mh-100">
+    </div>
+
+    <h3 class="text-right text-dark mb-4">.min-vw-100类和.vw-100类的对比效果</h3>
+    <h2 style="width: 1200px;" class="min-vw-100 bg-primary text-center">.min-vw-100</h2>
+    <h2 style="width: 1200px;" class="vw-100 bg-success text-center">.vw-100</h2>
+    <!-- 超小设备 {xs,小于576px}
+        没有媒体查询"xs",因为在Bootstrap中是默认的
+        小型设备 {sm,576像素及以上}
+        @media (min-width: 576px){}
+        
+        中型设备 {md,768像素及以上}
+        @media (min-width: 768px){}
+
+        大型设备 {lg,992像素及以上}
+        @media (min-width: 992px){}
+
+        超大型设备 {xl,1200像素及以上}
+        @media (min-width: 1200px){}
+    -->
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
