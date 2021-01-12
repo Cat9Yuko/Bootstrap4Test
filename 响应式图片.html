@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>布局容器</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+  <body>
+      <h2>响应式图片</h2>
+    <img class="img-fluid" src="https://w.wallhaven.cc/full/72/wallhaven-726rdv.jpg" alt="">
+    <img class="img-thumbnail" src="https://w.wallhaven.cc/full/72/wallhaven-726rdv.jpg" alt="">
+    <h2>图片对齐</h2>
+    <div class="clearfix">
+        <img class="float-left" src="https://w.wallhaven.cc/full/72/wallhaven-726rdv.jpg" alt="" width="200">
+        <img class="float-right" src="https://w.wallhaven.cc/full/72/wallhaven-726rdv.jpg" alt="" width="200">
+    </div>
+    <p class="text-center">浮动类实现左右对齐</p>
+    <div class="text-center">
+        <img src="https://w.wallhaven.cc/full/72/wallhaven-726rdv.jpg" alt="" width="200">
+        <p class="text-center">文本类实现水平居中</p>
+    </div>
+    <div>
+        <img class="mx-auto d-block" src="https://w.wallhaven.cc/full/72/wallhaven-726rdv.jpg" alt="" width="200">
+        <p class="text-center">外边距类实现水平居中</p>
+    </div>
+    <!-- 超小设备 {xs,小于576px}
+        没有媒体查询"xs",因为在Bootstrap中是默认的
+        小型设备 {sm,576像素及以上}
+        @media (min-width: 576px){}
+        
+        中型设备 {md,768像素及以上}
+        @media (min-width: 768px){}
+
+        大型设备 {lg,992像素及以上}
+        @media (min-width: 992px){}
+
+        超大型设备 {xl,1200像素及以上}
+        @media (min-width: 1200px){}
+    -->
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
