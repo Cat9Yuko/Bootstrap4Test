@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>布局容器</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://kit.fontawesome.com/d26d9b8d81.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="container">
+    <div class="clearfix my-4">
+        <div class="d-flex float-left float-md-left">
+            <div class="dropdown btn-group">
+                <button class="btn btn-outline-success" type="button">选择条件</button>
+                <button class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" data-offset="-90,0" type="button"></button>
+                <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">角色名称</a>
+                    <a href="#" class="dropdown-item">角色描述</a>
+                </div>
+            </div>
+            <div class="ml-3">
+                <form class="form-inline">
+                    <div class="form-group">
+                        <input type="search" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-success">查询</button>
+                </form>
+            </div>
+        </div>
+        <div class="ml-auto btn-group float-md-right">
+            <button type="button" class="btn btn-primary"><i class="fa fa-plus mr-1"></i>新增</button>
+            <button type="button" class="btn btn-warning"><i class="fa fa-times mr-1"></i>删除</button>
+            <button type="button" class="btn btn-info"><i class="fa fa-pencil mr-1"></i>编辑</button>
+            <button type="button" class="btn btn-success"><i class="fa fa-star mr-1"></i>角色授权</button>
+        </div>
+    </div>
+    <table class="table table-bordered">
+        <thead class="table-success">
+            <tr>
+                <th><input type="checkbox"></th>
+                <th>角色编号</th>
+                <th>角色名称</th>
+                <th>创建时间</th>
+                <th>角色描述</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>10001</td>
+                <td>系统管理员</td>
+                <td>2020-10-20</td>
+                <td>张三</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>10001</td>
+                <td>系统管理员</td>
+                <td>2020-10-20</td>
+                <td>张三</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>10001</td>
+                <td>系统管理员</td>
+                <td>2020-10-20</td>
+                <td>张三</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>10001</td>
+                <td>系统管理员</td>
+                <td>2020-10-20</td>
+                <td>张三</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox"></td>
+                <td>10001</td>
+                <td>系统管理员</td>
+                <td>2020-10-20</td>
+                <td>张三</td>
+            </tr>
+        </tbody>
+    </table>
+    <!-- 超小设备 {xs,小于576px}
+        没有媒体查询"xs",因为在Bootstrap中是默认的
+        小型设备 {sm,576像素及以上}
+        @media (min-width: 576px){}
+        
+        中型设备 {md,768像素及以上}
+        @media (min-width: 768px){}
+
+        大型设备 {lg,992像素及以上}
+        @media (min-width: 992px){}
+
+        超大型设备 {xl,1200像素及以上}
+        @media (min-width: 1200px){}
+    -->
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
