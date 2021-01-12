@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>布局容器</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+  <body>
+    <h2>内联元素和块级元素的转换</h2>
+    <p>div显示为内联元素(一行排列)</p>
+    <div class="d-inline bg-primary text-white">div----d-inline</div>
+    <div class="d-inline m-5 bg-danger text-white">div----d-inline</div>
+    <p>span显示为块级元素(独占一行)</p>
+    <span class="d-block bg-success text-white">span----d-block</span>
+    <span class="d-block bg-dark text-white">span----d-block</span>
+    <h2>响应式的显示和隐藏</h2>
+    <div class="d-none d-md-block bg-danger text-white">在md、lg、xl设备上显示（浅红色背景)</div>
+    <!-- 超小设备 {xs,小于576px}
+        没有媒体查询"xs",因为在Bootstrap中是默认的
+        小型设备 {sm,576像素及以上}
+        @media (min-width: 576px){}
+        
+        中型设备 {md,768像素及以上}
+        @media (min-width: 768px){}
+
+        大型设备 {lg,992像素及以上}
+        @media (min-width: 992px){}
+
+        超大型设备 {xl,1200像素及以上}
+        @media (min-width: 1200px){}
+    -->
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

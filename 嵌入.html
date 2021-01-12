@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>布局容器</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+  </head>
+  <body class="container">
+    <h3 class="mb-4">嵌入图像</h3>
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://imgs.1tu.com/images/25/52/76/28/3250278666.jpg-450h.jpg" frameborder="0"></iframe>
+    </div>
+
+    <h4>内容溢出: overflow-auto和overflow-hidden的效果</h4>
+    <div class="overflow-auto border float-left" style="width: 200px;height: 100px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis vero reiciendis molestias. Illo aperiam molestiae sapiente, modi enim incidunt blanditiis exercitationem quas beatae at laborum officia laboriosam ad praesentium quae?</div>
+    <div class="overflow-hidden border float-right" style="width: 200px;height: 100px;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae dolore impedit sequi distinctio blanditiis iure consequuntur consequatur vitae enim molestiae quis ab ipsam error quia inventore, architecto voluptatibus et unde!</div>
+
+    <nav class="sticky-top bg-primary p-5 mb-5">头部导航栏固定</nav>
+    <div class="bg-secondary p-3">
+        <p>内容!</p>
+        <p>内容!</p>
+        <p>内容!</p>
+        <p>内容!</p>
+        <p>内容!</p>
+        <p>内容!</p>
+        <p>内容!</p>
+        <p>内容!</p>
+    </div>
+
+    <h3 class="mb-4">阴影效果</h3>
+    <div class="shadow-sm p-3 mb-5">小的阴影</div>
+    <div class="shadow p-3 mb-5">正常的阴影</div>
+    <div class="shadow-lg p-3 mb-5">大的阴影</div>
+
+
+    <h3 class="mb-4">关闭图标</h3>
+    <button type="button" class="close" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+    <!-- 超小设备 {xs,小于576px}
+        没有媒体查询"xs",因为在Bootstrap中是默认的
+        小型设备 {sm,576像素及以上}
+        @media (min-width: 576px){}
+        
+        中型设备 {md,768像素及以上}
+        @media (min-width: 768px){}
+
+        大型设备 {lg,992像素及以上}
+        @media (min-width: 992px){}
+
+        超大型设备 {xl,1200像素及以上}
+        @media (min-width: 1200px){}
+    -->
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
